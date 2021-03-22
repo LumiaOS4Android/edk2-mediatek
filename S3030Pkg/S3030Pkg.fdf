@@ -97,15 +97,9 @@ READ_LOCK_STATUS   = TRUE
   INF EmbeddedPkg/MetronomeDxe/MetronomeDxe.inf
 
 FILE APPLICATION = af9763a2-033b-4109-8e17-56a98d380c92 {
-    SECTION DXE_DEPEX = S3030Pkg/Binary/HWIODxeDriver/HWIODxeDriver.depex
-    SECTION PE32 = S3030Pkg/Binary/HWIODxeDriver/HWIODxeDriver.efi
+    SECTION DXE_DEPEX = S3030Pkg/Binary/NokiaBootMgrApp/NokiaBootMgrApp.depex
+    SECTION PE32 = S3030Pkg/Binary/NokiaBootMgrApp/NokiaBootMgrApp.efi
     SECTION UI = "NokiaBootMgrApp"
-  }
-
-  FILE APPLICATION = 5776232e-082d-4b75-9a0e-fe1d13f7a5d9 {
-    SECTION DXE_DEPEX = S3030Pkg/Binary/PmicDxe/PmicDxe.depex
-    SECTION PE32 = S3030Pkg/Binary/PmicDxe/PmicDxe.efi
-    SECTION UI = "NokiaFlashApp"
   }
 
   #
